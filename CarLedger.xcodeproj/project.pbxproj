@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075EC73A2B964039000FCEC9 /* CarLedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EC7392B964039000FCEC9 /* CarLedgerApp.swift */; };
+		075EC73C2B964039000FCEC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EC73B2B964039000FCEC9 /* ContentView.swift */; };
+		075EC73E2B96403B000FCEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075EC73D2B96403B000FCEC9 /* Assets.xcassets */; };
+		075EC7412B96403B000FCEC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075EC7402B96403B000FCEC9 /* Preview Assets.xcassets */; };
+		075EC7432B96403B000FCEC9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EC7422B96403B000FCEC9 /* Persistence.swift */; };
+		075EC7462B96403B000FCEC9 /* CarLedger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 075EC7442B96403B000FCEC9 /* CarLedger.xcdatamodeld */; };
+		075EC7502B96403B000FCEC9 /* CarLedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EC74F2B96403B000FCEC9 /* CarLedgerTests.swift */; };
+		075EC75A2B96403B000FCEC9 /* CarLedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EC7592B96403B000FCEC9 /* CarLedgerUITests.swift */; };
+		075EC75C2B96403B000FCEC9 /* CarLedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EC75B2B96403B000FCEC9 /* CarLedgerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075EC74C2B96403B000FCEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075EC72E2B964039000FCEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075EC7352B964039000FCEC9;
+			remoteInfo = CarLedger;
+		};
+		075EC7562B96403B000FCEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075EC72E2B964039000FCEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075EC7352B964039000FCEC9;
+			remoteInfo = CarLedger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075EC7362B964039000FCEC9 /* CarLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLedger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		075EC7392B964039000FCEC9 /* CarLedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLedgerApp.swift; sourceTree = "<group>"; };
+		075EC73B2B964039000FCEC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		075EC73D2B96403B000FCEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075EC7402B96403B000FCEC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		075EC7422B96403B000FCEC9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		075EC7452B96403B000FCEC9 /* CarLedger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarLedger.xcdatamodel; sourceTree = "<group>"; };
+		075EC74B2B96403B000FCEC9 /* CarLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarLedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075EC74F2B96403B000FCEC9 /* CarLedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLedgerTests.swift; sourceTree = "<group>"; };
+		075EC7552B96403B000FCEC9 /* CarLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarLedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075EC7592B96403B000FCEC9 /* CarLedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLedgerUITests.swift; sourceTree = "<group>"; };
+		075EC75B2B96403B000FCEC9 /* CarLedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075EC7332B964039000FCEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075EC7482B96403B000FCEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075EC7522B96403B000FCEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075EC72D2B964039000FCEC9 = {
+			isa = PBXGroup;
+			children = (
+				075EC7382B964039000FCEC9 /* CarLedger */,
+				075EC74E2B96403B000FCEC9 /* CarLedgerTests */,
+				075EC7582B96403B000FCEC9 /* CarLedgerUITests */,
+				075EC7372B964039000FCEC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		075EC7372B964039000FCEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075EC7362B964039000FCEC9 /* CarLedger.app */,
+				075EC74B2B96403B000FCEC9 /* CarLedgerTests.xctest */,
+				075EC7552B96403B000FCEC9 /* CarLedgerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075EC7382B964039000FCEC9 /* CarLedger */ = {
+			isa = PBXGroup;
+			children = (
+				075EC7392B964039000FCEC9 /* CarLedgerApp.swift */,
+				075EC73B2B964039000FCEC9 /* ContentView.swift */,
+				075EC73D2B96403B000FCEC9 /* Assets.xcassets */,
+				075EC7422B96403B000FCEC9 /* Persistence.swift */,
+				075EC7442B96403B000FCEC9 /* CarLedger.xcdatamodeld */,
+				075EC73F2B96403B000FCEC9 /* Preview Content */,
+			);
+			path = CarLedger;
+			sourceTree = "<group>";
+		};
+		075EC73F2B96403B000FCEC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				075EC7402B96403B000FCEC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		075EC74E2B96403B000FCEC9 /* CarLedgerTests */ = {
+			isa = PBXGroup;
+			children = (
+				075EC74F2B96403B000FCEC9 /* CarLedgerTests.swift */,
+			);
+			path = CarLedgerTests;
+			sourceTree = "<group>";
+		};
+		075EC7582B96403B000FCEC9 /* CarLedgerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				075EC7592B96403B000FCEC9 /* CarLedgerUITests.swift */,
+				075EC75B2B96403B000FCEC9 /* CarLedgerUITestsLaunchTests.swift */,
+			);
+			path = CarLedgerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075EC7352B964039000FCEC9 /* CarLedger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075EC75F2B96403B000FCEC9 /* Build configuration list for PBXNativeTarget "CarLedger" */;
+			buildPhases = (
+				075EC7322B964039000FCEC9 /* Sources */,
+				075EC7332B964039000FCEC9 /* Frameworks */,
+				075EC7342B964039000FCEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarLedger;
+			productName = CarLedger;
+			productReference = 075EC7362B964039000FCEC9 /* CarLedger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		075EC74A2B96403B000FCEC9 /* CarLedgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075EC7622B96403B000FCEC9 /* Build configuration list for PBXNativeTarget "CarLedgerTests" */;
+			buildPhases = (
+				075EC7472B96403B000FCEC9 /* Sources */,
+				075EC7482B96403B000FCEC9 /* Frameworks */,
+				075EC7492B96403B000FCEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075EC74D2B96403B000FCEC9 /* PBXTargetDependency */,
+			);
+			name = CarLedgerTests;
+			productName = CarLedgerTests;
+			productReference = 075EC74B2B96403B000FCEC9 /* CarLedgerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		075EC7542B96403B000FCEC9 /* CarLedgerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075EC7652B96403B000FCEC9 /* Build configuration list for PBXNativeTarget "CarLedgerUITests" */;
+			buildPhases = (
+				075EC7512B96403B000FCEC9 /* Sources */,
+				075EC7522B96403B000FCEC9 /* Frameworks */,
+				075EC7532B96403B000FCEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075EC7572B96403B000FCEC9 /* PBXTargetDependency */,
+			);
+			name = CarLedgerUITests;
+			productName = CarLedgerUITests;
+			productReference = 075EC7552B96403B000FCEC9 /* CarLedgerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075EC72E2B964039000FCEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					075EC7352B964039000FCEC9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					075EC74A2B96403B000FCEC9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 075EC7352B964039000FCEC9;
+					};
+					075EC7542B96403B000FCEC9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 075EC7352B964039000FCEC9;
+					};
+				};
+			};
+			buildConfigurationList = 075EC7312B964039000FCEC9 /* Build configuration list for PBXProject "CarLedger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075EC72D2B964039000FCEC9;
+			productRefGroup = 075EC7372B964039000FCEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075EC7352B964039000FCEC9 /* CarLedger */,
+				075EC74A2B96403B000FCEC9 /* CarLedgerTests */,
+				075EC7542B96403B000FCEC9 /* CarLedgerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075EC7342B964039000FCEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075EC7412B96403B000FCEC9 /* Preview Assets.xcassets in Resources */,
+				075EC73E2B96403B000FCEC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075EC7492B96403B000FCEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075EC7532B96403B000FCEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075EC7322B964039000FCEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075EC7432B96403B000FCEC9 /* Persistence.swift in Sources */,
+				075EC73C2B964039000FCEC9 /* ContentView.swift in Sources */,
+				075EC73A2B964039000FCEC9 /* CarLedgerApp.swift in Sources */,
+				075EC7462B96403B000FCEC9 /* CarLedger.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075EC7472B96403B000FCEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075EC7502B96403B000FCEC9 /* CarLedgerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075EC7512B96403B000FCEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075EC75C2B96403B000FCEC9 /* CarLedgerUITestsLaunchTests.swift in Sources */,
+				075EC75A2B96403B000FCEC9 /* CarLedgerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075EC74D2B96403B000FCEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075EC7352B964039000FCEC9 /* CarLedger */;
+			targetProxy = 075EC74C2B96403B000FCEC9 /* PBXContainerItemProxy */;
+		};
+		075EC7572B96403B000FCEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075EC7352B964039000FCEC9 /* CarLedger */;
+			targetProxy = 075EC7562B96403B000FCEC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075EC75D2B96403B000FCEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075EC75E2B96403B000FCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075EC7602B96403B000FCEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarLedger/Preview Content\"";
+				DEVELOPMENT_TEAM = PL6BGD32QW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Car Ledger";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.CarLedger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		075EC7612B96403B000FCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarLedger/Preview Content\"";
+				DEVELOPMENT_TEAM = PL6BGD32QW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Car Ledger";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.CarLedger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		075EC7632B96403B000FCEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.CarLedgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarLedger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarLedger";
+			};
+			name = Debug;
+		};
+		075EC7642B96403B000FCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.CarLedgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarLedger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarLedger";
+			};
+			name = Release;
+		};
+		075EC7662B96403B000FCEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.CarLedgerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarLedger;
+			};
+			name = Debug;
+		};
+		075EC7672B96403B000FCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.CarLedgerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarLedger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075EC7312B964039000FCEC9 /* Build configuration list for PBXProject "CarLedger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075EC75D2B96403B000FCEC9 /* Debug */,
+				075EC75E2B96403B000FCEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075EC75F2B96403B000FCEC9 /* Build configuration list for PBXNativeTarget "CarLedger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075EC7602B96403B000FCEC9 /* Debug */,
+				075EC7612B96403B000FCEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075EC7622B96403B000FCEC9 /* Build configuration list for PBXNativeTarget "CarLedgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075EC7632B96403B000FCEC9 /* Debug */,
+				075EC7642B96403B000FCEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075EC7652B96403B000FCEC9 /* Build configuration list for PBXNativeTarget "CarLedgerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075EC7662B96403B000FCEC9 /* Debug */,
+				075EC7672B96403B000FCEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		075EC7442B96403B000FCEC9 /* CarLedger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				075EC7452B96403B000FCEC9 /* CarLedger.xcdatamodel */,
+			);
+			currentVersion = 075EC7452B96403B000FCEC9 /* CarLedger.xcdatamodel */;
+			path = CarLedger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 075EC72E2B964039000FCEC9 /* Project object */;
+}
